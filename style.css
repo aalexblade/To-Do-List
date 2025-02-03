@@ -105,9 +105,12 @@ ul li.checked::before {
   color: white;
   text-align: center;
   border-radius: 10px;
+}
 
-  /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+.header h2 {
+  background: linear-gradient(90deg, #ce5e18, #5bdbe2, #69d4f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Clear floats after the header */
