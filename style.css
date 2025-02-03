@@ -108,9 +108,14 @@ ul li.checked::before {
 }
 
 .header h2 {
-  background: linear-gradient(90deg, #ce5e18, #5bdbe2, #69d4f8);
+  font-size: 2rem;
+  margin: 0 auto 2rem;
+  line-height: 1.5;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(120deg, #2943eb, #6ed3ff, #ff8d22);
+  width: max-content;
+  padding: 0 1rem;
 }
 
 /* Clear floats after the header */
